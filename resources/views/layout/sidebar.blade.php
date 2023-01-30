@@ -5,7 +5,7 @@
     </a>
     <div class="list-group list-group-flush border-bottom scrollarea">
       @foreach ($movies as $movie)
-      <a href="#" class="list-group-item list-group-item-action py-3 lh-sm">
+      <a href="movies/{{ $movie->id }}" class="list-group-item list-group-item-action py-3 lh-sm">
         <div class="d-flex w-100 align-items-center justify-content-between">
           <strong>{{ $movie->title }}</strong>
         </div>

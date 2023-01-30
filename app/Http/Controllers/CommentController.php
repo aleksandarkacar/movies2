@@ -39,7 +39,7 @@ class CommentController extends Controller
 
         $comment->save();
 
-        return redirect('movies/'. $movie->id);
+        return redirect('movies/'. $movie->id .'#footer');
     }
 
     /**
